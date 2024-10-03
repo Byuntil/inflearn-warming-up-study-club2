@@ -16,11 +16,11 @@ public class Order {
         OrderValidator.validateOrder(items, customerInfo);
         return new Order(items, customerInfo);
     }
-
+    //test용으로 열어둠
     public List<Item> getItems() {
         return items;
     }
-
+    //test용으로 열어둠
     public String getCustomerInfo() {
         return customerInfo;
     }
